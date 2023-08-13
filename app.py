@@ -597,7 +597,7 @@ def convert_pdf_kelahiran():
     html = render_template('resume_kelahiran.html',data=data)  # Replace 'your_template.html' with your own template
 
     # Create a PDFCrowd client
-    client = pdfcrowd.HtmlToPdfClient('finalproject', '533d5b4798c23089843bcbbcb9241575')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
+    client = pdfcrowd.HtmlToPdfClient('nisrina', '69ab0bdc7e4165b4524910f41ab30675')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
 
     # Convert HTML to PDF
     pdf = client.convertString(html)
@@ -626,7 +626,7 @@ def convert_pdf_kematian():
     html = render_template('resume_kematian.html',data=data)  # Replace 'your_template.html' with your own template
 
     # Create a PDFCrowd client
-    client = pdfcrowd.HtmlToPdfClient('finalproject', '533d5b4798c23089843bcbbcb9241575')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
+    client = pdfcrowd.HtmlToPdfClient('nisrina', '69ab0bdc7e4165b4524910f41ab30675')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
 
     # Convert HTML to PDF
     pdf = client.convertString(html)
@@ -652,7 +652,7 @@ def convert_pdf_domisili():
     html = render_template('resume_domisili.html',data=data)  # Replace 'your_template.html' with your own template
 
     # Create a PDFCrowd client
-    client = pdfcrowd.HtmlToPdfClient('finalproject', '533d5b4798c23089843bcbbcb9241575')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
+    client = pdfcrowd.HtmlToPdfClient('nisrina', '69ab0bdc7e4165b4524910f41ab30675')  # Replace 'username' and 'apikey' with your PDFCrowd credentials
 
     # Convert HTML to PDF
     pdf = client.convertString(html)
