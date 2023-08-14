@@ -18,7 +18,7 @@ app = Flask(__name__)
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 MONGODB_URI = os.environ.get("MONGODB_URI")
-DB_NAME =  os.environ.get("DBNAME")
+DB_NAME =  os.environ.get("DB_NAME")
 SECRET_KEY = os.environ.get("SECRET_KEY")
 algorithms = os.environ.get("algorithms")
 
